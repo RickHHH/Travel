@@ -1,10 +1,10 @@
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1616507407134'); /* IE9 */
-  src: url('iconfont.eot?t=1616507407134#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  src: url('./iconfont/iconfont.eot?t=1616507407134'); /* IE9 */
+  src: url('./iconfont/iconfont.eot?t=1616507407134#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANAAAsAAAAAB1AAAALzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqCEIICATYCJAMQCwoABCAFhG0HQxtvBhHVmwXIfibYtnDyevT+EYdGWiStCSKy+696unfffOoAIqOZWSEUXrwBkMZ/85tzTT0ZFaFG8i169IWk7Si7NH3w+b932rQE5gXKZaxJa9OLok+dAOOtAe2NawkXSEDesbyuSUGzftoNAeIpRAWkRasOPfAYZJAAMmHs6KH4WhDD3IxHCHtmGrKOAO+WuyfAWv19+UM18eAIFDKyy6iWI2jy3b530nnRvAGShnw/D+DOAwUqAAYyptc3DM2TFVDi4/ZGLcDjcbBXQ7vvnaIIO+DGUqpj7R/PgYQQMhGAGpBS+G5cVurbgQUBfScgcAAvZIYHYkBLYBKEU4C3OQTLEJ+cmCyDU1bezttWZsSxR+W2ZI86cbD80ZLSP3Nk71Gje40Y//Ztz7dverx51+vd+96Pu78pJA31e3jDu3dzV2T32rLz5Mqsnpu3b9sUv+Xq88JzkhLTh30sPXv+4tajv/nZ0xp1gageFy/17j1sKBVLcX4ebj8dKxsXJ4yJjZm5b1T26PSTI4uMKDCi+6XB5UoMWqXXb+hKXQXmVc6y3Lgh1Ctxy/Ti2Ynbdu1a7tPyljl5o6pO+R3PFEhbPeOuQ0RDrafT6xpN+gm/4U2FqO/glAb/fYIB8GVeRgoEIsZ8+ZuUx/JXLp9ZYImS2M0iFZelfqNsZRAOiCceeNFZSOfbHoas2SQInqwSjhgFoXhK0I1dAQEJ1ECIpzHiKU/r+QlkMA1FLA4ox2IEIZWzcCRzF0oqT+nG/oqAbP4hJFUU8fSSjBUTKCV6OpwEjaIH+4fkeCHm1IPJvWMok5GqUnPfKDlFoKvbZuaGC8oeY/In9KoEJDzDFe2H08SwCg/otI6q67FpqO9GteO5OnASNIoe7B+S44VkaT20Pn/HUCYjI5Sx6Bslp+ahq9sZ9JtumUV5l0PyJ/SqBCQ8wxV5cKJJhrW/24BO67givh4bXIzm6urzDfMTLgPiISuZOFExCdiOS2ZRLhtSHWNJm8wlF64qAA==') format('woff2'),
-  url('iconfont.woff?t=1616507407134') format('woff'),
-  url('iconfont.ttf?t=1616507407134') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  url('iconfont.svg?t=1616507407134#iconfont') format('svg'); /* iOS 4.1- */
+  url('./iconfont/iconfont.woff?t=1616507407134') format('woff'),
+  url('./iconfont/iconfont.ttf?t=1616507407134') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./iconfont/iconfont.svg?t=1616507407134#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -15,15 +15,4 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.iconjiantou:before {
-  content: "\e64a";
-}
-
-.iconfanhui:before {
-  content: "\e64e";
-}
-
-.iconsousuo:before {
-  content: "\e604";
-}
 
