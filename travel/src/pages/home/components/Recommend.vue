@@ -3,7 +3,7 @@
     <div class="title">热销推荐</div>
     <ul>
         <li class="item border-bottom"
-            v-for="item of recommendList" 
+            v-for="item of list" 
             :key="item.id">          
             <img class="item-img" :src="item.imgUrl" >           
             <div class="item-info">
@@ -20,34 +20,8 @@
 
 export default {
     name:'HomeRecommend',
-    data () {
-        return{
-            recommendList: [{
-                id:'0001',
-                imgUrl:"//img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_256x160_2c506073.jpg",
-                title:'dd',
-                desc:'dddd'
-            },
-            {
-                id:'0002',
-                imgUrl:'//img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_256x160_2c506073.jpg',
-                title:'dd',
-                desc:'dddd'
-            },
-            {
-                id:'0003',
-                imgUrl:'//img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_256x160_2c506073.jpg',
-                title:'dd',
-                desc:'dddd'
-            },
-            {
-                id:'0004',
-                imgUrl:'//img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_256x160_2c506073.jpg',
-                title:'dd',
-                desc:'dddd'
-            },
-        ]
-        }
+    props:{
+        list:Array
     }
 }
     
