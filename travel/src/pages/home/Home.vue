@@ -29,11 +29,12 @@ export default {
         },
         data () {
             return {
-                city: '',
+                city:'',
                 swiperList: [],
                 iconList:[],
                 recommendList:[],
-                weekendList:[]
+                weekendList:[],
+                hotCities:[]
             }
         },
         methods: {  
@@ -42,7 +43,7 @@ export default {
                     .then(this.getHomeInfoSucc);
             },
             getHomeInfoSucc (res) {
-                res = res.data
+                res = res.data;
                 console.log(res)
 
                 if (res.ret && res.data) {

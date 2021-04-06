@@ -19,7 +19,6 @@
 </template>
 
 <script>
-
 export default {
     name:'HomeWeekend',
     props:{
@@ -28,7 +27,6 @@ export default {
     
 }
     
-
 </script>
 
 <style lang="stylus" scoped>
@@ -53,6 +51,4 @@ export default {
             line-height: .4rem
             color: #ccc
             ellipsis()
-
-
 </style>
